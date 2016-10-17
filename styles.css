@@ -1,3 +1,108 @@
-/**************************************
-       VOTRE CSS AVEC FLEXBOX
-**************************************/
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #050505;
+	color: white;
+}
+
+/**************** Header ******************/
+
+header
+{
+	height: 100px;
+	width: 98%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+header ul
+{
+	display: flex;
+	align-items: center;
+	list-style-type: none;	
+}
+
+header li
+{
+	margin: 30px;
+}
+
+/******************* Section bannière ********************/
+
+#ban
+{
+	height: 500px;
+	width: 85%;
+	background-color: #560001;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 15px;
+	margin-bottom: 25px;
+
+}
+
+#baninfo
+{
+	height: 90%; 
+	width: 45%;
+	font-size: 50px;
+	margin-left: 90px;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+
+}
+
+button
+{
+	margin-top: 60px;
+	height: 40px;
+	width: 110px;
+	border-radius: 6px;
+}
+
+#ban img
+{
+	height: 120%;
+	width: 80%;
+	margin-top: 30px;
+	margin-right: -50px;
+	z-index: 1;
+}
+
+span /* titre banière */
+{
+	color: black;
+}
+
+/********************** Section Service ********************/
+
+#service
+{
+	height:200px; 
+	width:85%;
+	font-size: 20px;
+	border-radius: 15px;
+	border:1px solid #3C3B37;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#service h3
+{
+	font-size: 35px;
+}
+
